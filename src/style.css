@@ -23,6 +23,10 @@ body{
     padding-bottom: 8px;
 }
 
+.sub-title{
+    text-align: center;
+}
+
 .left{float: left;}
 .right{float: right;}
 
@@ -117,6 +121,7 @@ header{
 }
 
 .info{
+    padding: 3px;
     font-size: 18px;
     font-weight: bolder;
     margin: 8px 0;
@@ -139,6 +144,7 @@ header{
     background-color: #aafeb8;
     border: #81d4fa 1px solid;
     border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .bolo-id{
@@ -215,6 +221,7 @@ header{
 table{
     margin-top: 12px;
     background-color: #99fbd7;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -235,6 +242,45 @@ table td, th {
 .gurpo-info{
     display: flex;
     flex-direction: row;
+}
+
+.gurpo-info img{margin: 0 5px;}
+
+.redes{
+    border: #81d4fa 2px solid;
+    background-color: #aafeb8;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.redes h3{
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.redes a{
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.redes p{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.redes h5{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.redes span{
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 @media (max-width: 820px){
